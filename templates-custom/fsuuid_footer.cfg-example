@@ -1,0 +1,7 @@
+# Just an example how to include custom content at the top by ESP uuid.
+
+menuentry 'My custom OS' --class windows {
+  set root=(${different_partition_2})
+  chainloader '/efi/bootms/bootx64.efi'
+  boot
+}

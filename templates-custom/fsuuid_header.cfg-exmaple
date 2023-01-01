@@ -1,0 +1,8 @@
+# Just an example how to include custom content at the top by ESP uuid.
+#
+# You don't have to define you variables here, it's just what I thought would
+# be reasonable and best practice, on second thought, defining variables where
+# they are used is actual best practice, so probably put everything in the
+# footer unless you really want to have things at the top.
+search --no-floppy --fs-uuid --set=different_partition_1 different_uuid_1
+search --no-floppy --fs-uuid --set=different_partition_2 different_uuid_2
